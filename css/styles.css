@@ -1,0 +1,37 @@
+body{
+color: black;
+}
+
+h1{
+color: black;
+}
+
+blockquote{
+color: black;
+}
+
+table{
+
+}
+
+nav{
+    color: #0D3B66;
+    background-color: #FAF0CA;
+
+}
+
+ul{
+color: black;
+}
+
+li{
+color: black;
+}
+
+a {
+color: black;
+}
+
+a:hover{
+    color: #F4D35E;
+}
