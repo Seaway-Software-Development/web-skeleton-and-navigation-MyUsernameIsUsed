@@ -17,6 +17,8 @@ table{
 nav{
     color: #0D3B66;
     background-color: #FAF0CA;
+    padding: 10 px 25px;
+    margin: 0;
 
 }
 
@@ -24,16 +26,29 @@ header{
     height: 800px;
 }
 
-ul{
-color: black;
+header article{
+    font-size: 7em;
+    display: center;
 }
 
-li{
-color: black;
+nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    color: black;
 }
 
-a {
+nav li{
 color: black;
+display: inline;
+}
+
+nav a {
+    padding: 10px 25px;
+    font-size: 2em;
+    text-decoration: none;
+    color: black;
 }
 
 a:hover{
