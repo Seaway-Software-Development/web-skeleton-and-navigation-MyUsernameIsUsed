@@ -60,6 +60,19 @@ a:hover{
     display: center;
 }
 
+.google-map {
+    padding-bottom: 50%;
+    position: relative;
+}
+
+.google-map iframe {
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+    position: absolute;
+}
+
 article{
     width: 100%;
     color: black;
@@ -85,4 +98,62 @@ div {
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
+  }
+
+  #form {
+    margin-top:1%;
+    background-color: white;
+    padding: 1%;
+}
+
+#form h2 {
+    text-align: center;
+}
+
+
+fieldset legend {
+    font-weight: bold;
+    font-size:1em;
+}
+
+label{
+display:block;
+padding-top: 5%
+}
+
+form #submit {
+    margin: 0 auto;
+    border: none;
+    display: block;
+    padding: 3%;
+    font-size: 1em;
+    background-color:#F4D35E;
+    color: white;
+}
+
+.column {
+    float: left;
+    width: 33.33%;
+  }
+  
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  @media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+    }
+  }
+
+  .responsive {
+    width: 100%;
+    height: auto;
+  }
+
+  video {
+    height: auto;
+    width: 100%;
   }
