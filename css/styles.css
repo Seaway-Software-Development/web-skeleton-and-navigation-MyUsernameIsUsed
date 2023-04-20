@@ -91,14 +91,20 @@ div {
 
   .div1 img{
     float: left;
+    width: 25%;
+    background-color: #F4D35E;
   }
 
-  .div2{
+  .div2 img{
     float: right;
+    width: 25%;
+    background-color: #F4D35E;
   }
 
-  .div3 {
+  .div3 img{
     float: left;
+    width: 25%;
+    background-color: #F4D35E;
   }
 
   div h2{
