@@ -89,19 +89,19 @@ div {
     text-justify: inter-word;
   }
 
-  .div1 img{
+  .div1 {
     float: left;
     width: 25%;
     background-color: #F4D35E;
   }
 
-  .div2 img{
+  .div2 {
     float: right;
     width: 25%;
     background-color: #F4D35E;
   }
 
-  .div3 img{
+  .div3 {
     float: left;
     width: 25%;
     background-color: #F4D35E;
