@@ -89,6 +89,26 @@ div {
     text-justify: inter-word;
   }
 
+  .div1 img{
+    float: left;
+  }
+
+  .div2{
+    float: right;
+  }
+
+  .div3 {
+    float: left;
+  }
+
+  div h2{
+    float: right;
+  }
+
+  div h3{
+    float: left;
+  }
+
   .button {
     background-color: #F4D35E; 
     border: none;
@@ -167,4 +187,8 @@ form #submit {
     border: thin silver solid;
     margin: 0.5em;
     padding: 0.5em;
+  }
+
+  footer{
+    clear: both;
   }
